@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Story</title>
+    <link rel="stylesheet" href="all.min.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+	<script src="https://kit.fontawesome.com/253e9bf939.js" crossorigin="anonymous"></script>
+		   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Welcome Part Start -->
+    <div class="welcome_part py-2">
+      <div class="container">
+        <div class="welcome_con_main d-flex justify-content-between">
+          <div class="welcome_con text-white">
+            <p>Welcome to Tahsin's Fiction</p>
+          </div>
+          <ul class="welcome_icon d-flex gap-3">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Welcome Part End -->
+
+    <!-- Menu Bar Start -->
+    <nav class="navbar py-3 navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img width="50px" src="img/logo.png" alt=""  />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#story">Story</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Menu Bar End -->
+	<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" id="home">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+     <img src="img/r.jpg" class="d-block w-100" alt="Story World" style="width:380px;height:480px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Story World</h5>
+        <p>Welcome to my story world.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+       <img src="img/lmb.jpg" class="d-block w-100" alt="The Lion and The Mouse" style="width:380px;height:480px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>The Lion and The Mouse</h5>
+        <p>Once upon a time, there lived a lion in the dense Amazon rainforest.While he was sleeping by resting his big head on his paws, a tiny little mouse unexpectedly crossed by and ran across the lion’s nose in haste. This woke up the lion and ........</p>
+      </div>
+    </div>
+	 <div class="carousel-item" data-bs-interval="2000">
+       <img src="img/fg.jpg" class="d-block w-100" alt="The Fox & The Grapes" style="width:380px;height:480px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>The Fox & The Grapes</h5>
+        <p>One afternoon a fox was walking through the forest and spotted a bunch of grapes hanging ........</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+     <img src="img/htt.png" class="d-block w-100" alt="Hair and Tortoise" style="width:380px;height:480px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>The Tortoise and The Hare</h5>
+        <p>A long, long time ago, there lived a hare in the forest who always boasted of his running speed. Often he would tease the tortoise for being the slowest animal around. One fine day, he dared the tortoise to a race in order to exhibit his skills </p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+   
+  <br> 
+<div id="story">
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/lmb.jpg" class="card-img-top" alt="..." style="width:432px;height:200px;">
+      <div class="card-body">
+        <h5 class="card-title">The Lion and The Mouse</h5>
+        <p class="card-text">Once upon a time, there lived a lion in the dense Amazon rainforest.While he was sleeping by resting his big head on his paws, a tiny little mouse unexpectedly crossed by and ran across the lion’s nose in haste. This woke up the lion and he laid his huge paw angrily on the tiny mouse to kill her.</p>
+
+<p>The poor mouse begged the lion to spare her this time and she would pay him back on some other day. Hearing this, the lion was amused and wondered how could such a tiny creature ever help him. But he was in a good mood and in his generosity he finally let the mouse go.
+
+A few days later, a hunter set a trap for the lion while the big animal was stalking for prey in the forest. Caught in the toils of a hunter’s net, the lion found it difficult to free himself and roared loudly in anger.</p>
+
+<p>As the mouse was passing by, she heard the roar and found the lion struggling hard to free himself from the hunter’s net. The little creature quickly ran towards the lion’s trap that bound him and she gnawed the net with her sharp teeth until the net tore apart. Slowly she made a big hole in the net and soon the lion was able to free himself from the hunter’s trap.
+
+The lion thanked the little mouse for her help and the mouse reminded him that she had finally repaid the lion for sparing her life before. Thereafter, the lion and the mouse became good friends and lived happily in the forest.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/fg.jpg" class="card-img-top" alt="..." style="width:432px;height:200px;">
+      <div class="card-body">
+        <h5 class="card-title">The Fox & The Grapes</h5>
+        <p class="card-text">One afternoon a fox was walking through the forest and spotted a bunch of grapes hanging from over a lofty branch .“Just the thing to quench my thirst,” he thought.</p>
+
+<p>Taking a few steps back, the fox jumped and just missed the hanging grapes. Again the fox took a few paces back and tried to reach them but still failed.</p>
+
+<p>Finally, giving up, the fox turned up his nose and said, “They’re probably sour anyway,” and proceeded to walk away. </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 5 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/htt.png" class="card-img-top" alt="..." style="width:432px;height:200px;">
+      <div class="card-body">
+        <h5 class="card-title">The Tortoise and The Hare</h5>
+        <p class="card-text"><p>A long ago,there lived a hare in the forest who always boasted of his running speed.Fed up of the hare’s bragging,the tortoise accepted the challenge and decided to compete him to a race.On the day of the race,all the animals of the forest gathered to watch the competition.</p>
+
+ <p>The race began!The hare immediately started running and the tortoise started in its usual slow pace.Soon the hare reached a long way ahead almost a few yards from the finish line.He looked back to check if the tortoise was anywhere nearby.However, the tortoise was left far behind and almost could not be seen.The hare decided to pause and take some rest on the way before he completes the race.He looked around and to his left, he noticed a field of cabbages and carrots. He decided to snack on cabbage and take a short nap so that he can quickly run past the finish line in a fresh mood.</p>
+
+ <p>Soon the hare fell into a deep sleep and dreamt of winning the competition.Time passed and the sun was already setting when he suddenly woke up.He quickly jumped to check if the tortoise was around.To his dismay, the tortoise was just a few steps away from the finish line.Seeing the tortoise close to the finish line,the hare rushed towards it.However, it was already too late and the tortoise finally crossed the finish line,thereby winning the competition.When the hare reached where the race ends,all the animals were laughing at him for losing the race to the tortoise. He learnt a lesson that bragging about something doesn’t win you accolades,hence you should never mock others for their own pace. </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 6 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div> 
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/lb.jpg" class="card-img-top" alt="..." style="width:432px;height:200px;">
+      <div class="card-body">
+        <h5 class="card-title">A liar shepherd boy who cried the wolf</h5>
+        <p class="card-text">There lived a shepherd boy in a certain village. He used to graze a flock of sheep near a forest. It was not very far from his village. Besides his usual duty, he sang and played the flute. But the boy had a bad habit.
+
+He used to tell a lie on the slightest excuse. He also used to make fun by telling lies. He wanted to make a fun with the villagers. They were simple and very helpful. They used to help others in times of danger.</p>
+
+<p>One day, the shepherd boy began to shout. “wolf! Wolf! Help!” Help!” The heard his cry and ran to help him. But when they came near him, they found no wolf there and the boy laughed at them.
+
+In this way, the boy has fooled the villagers. The villagers became very angry for this. They did not punish him but warned him not to do it again.</p>
+
+<p>A few days later, the shepherd boy again made the same fun. The villagers came to save him but the boy did not pay heed to them and kept laughing. At the time of their departure, they said,“If you cry out for help again, we will not come because you are a liar.</p>
+
+<p>One day A wolf really fell upon his sheep and began to kill them. The boy became very afraid and shouted for help. The villagers heard him but they thought that he’s lying again. Nobody came to help him.
+
+The wolf not only feasted on his sheep but also killed him badly. Next day the villagers found his dead body . </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 10 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/bayazid.JPG" class="card-img-top" alt="..." style="width:432px;height:200px;">
+      <div class="card-body">
+        <h5 class="card-title">Bayazid's Love for His Mother</h5>
+        <p class="card-text">Bayazid was a small boy.One night he was studying in his room.His mother was lying on her bed because she was ill. At midnight she woke up from sleep and wished to drink water. Mother told him to give her a glass of water.He stood up. </p>
+
+ <p>But alas! He found not a single drop of water anywhere in the house. The night was dark still. He didn’t want to disturb the neighbors. So he thought what to do.
+
+All of a sudden, he remembered a spring. It was at the other end of the locality. He decided to go there. He took a jar and went fountain for water. He filled the jar with water and return home. </p>
+
+ <p>He went to his mother with a glass of water. But by that time, she was asleep again. He didn’t wake up her and stood beside her bed with the glass of water in his hand. The mother awoke up next morning and looked about. She found that he was still waiting by her bed with the glass of water in his hand.
+
+She remembered what she had said at night and tears of joy rolled down her cheeks. “God Bless you, my son!” said the mother and the boy was really blessed. He became the famous Bayazid Bostami.  </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 10 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+</div><br>
+<h1> GALLERY</h1>
+<div class="row row-cols-1 row-cols-md-2 g-4" id="gallery">
+  <div class="col">
+    <div class="card">
+      <img src="img/lm.png" class="card-img-top" alt="..." width="40px" height="250px">
+      <div class="card-body">
+        <h5 class="card-title">The Lion and The Mouse</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col" >
+    <div class="card">
+      <img src="img/liar.jpg" class="card-img-top" alt="..." width="40px" height="250px">
+      <div class="card-body">
+        <h5 class="card-title">A liar shepherd boy who cried the wolf</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="img/hrt.jpg" class="card-img-top" alt="..." width="40px" height="250px">
+      <div class="card-body">
+        <h5 class="card-title">The Tortoise and The Hare</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="img/fox.jpg" class="card-img-top" alt="..." width="40px" height="250px">
+      <div class="card-body">
+        <h5 class="card-title">The Fox & The Grapes</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="img/teddy.jpg" class="card-img-top" alt="..." width="40px" height="250px">
+      <div class="card-body">
+        <h5 class="card-title">STory Teller</h5>
+      </div>
+    </div>
+  </div>
+</div>
+<br> <br>
+   <!--About Us -->
+   <div class="card" style="width: 80rem;" id="about">
+  <div class="card-body">
+    <h5 class="card-title">ABOUT US</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Story Teller</h6>
+    <p class="card-text">Hey We are The story Teller....Here's you will get children stories.Do you like Stories???Here We have some moral stories.Let's Explore the story world.................</p>
+    <a href="#story" class="card-link">Stories</a>
+  </div>
+</div>
+
+    <!-- Contact Part Start -->
+    <div class="contact_part">
+      <div class="container">
+        <div class="contact_con_main text-sm-start text-center">
+          <div class="row g-4">
+            <div class="col-xl-3 col-lg-4 col-sm-6">
+              <div class="contact_con text-white">
+                <div class="con_header pb-3">
+                  <img src="img/logo.png" alt="" width="50px" />
+                </div>
+              </div>
+            </div>
+             <div class="col-xl-2 col-lg-4 col-sm-6">
+              <div class="contact_con text-white">
+                <div class="con_header pb-3">
+                  <h4>Important Links</h4>
+                </div>
+              </div>
+              <div
+                class="links_main d-flex gap-2 justify-content-sm-start justify-content-center"
+              >
+                <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About us</a></li>
+                  <li><a href="#story">Stories</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-sm-6 mx-lg-auto">
+              <div class="contact_con text-white">
+                <div class="con_header pb-3">
+                  <h4>Flicker Photos</h4>
+                </div>
+              </div>
+              <div class="row g-sm-4 g-3">
+                <div class="col-4">
+                  <div class="flickr_img">
+                   <img width="100px" height="100px" src="img/app.jpg" alt=""  />
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="flickr_img">
+                    <img width="100px" height="100px" src="img/lmb.jpg" alt=""  />
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="flickr_img">
+                    <img width="100px" height="100px" src="img/fg.jpg" alt=""  />
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="flickr_img">
+                    <img width="100px" height="100px" src="img/bayazid.JPG" alt=""  />
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="flickr_img">
+                   <img width="100px" height="100px" src="img/hr.jpeg" alt=""  />
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="flickr_img">
+                  <img width="100px" height="100px" src="img/lb.jpg" alt=""  />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <!-- Contact Part End -->
+
+    <div class="footer_part">
+      <div class="container">
+        <div class="footer_con py-3">
+          <p class="text-center text-white">
+            Copyright &copy; 2023. All rights reserved by Anika Tahsin
+            <a href="#">(WD-2304)</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+
